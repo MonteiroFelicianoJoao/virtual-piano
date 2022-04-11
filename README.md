@@ -1,2 +1,2 @@
 # virtual-piano
-A vitual piano
+A vitual piano with mouse and keyboard entrys.
