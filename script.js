@@ -16,6 +16,9 @@ keys.forEach(key => {
 * and firing playNote fuction
 */
 document.addEventListener("keydown", e => {
+    if (e.repeat) {
+        return;
+    }
     const activeKey = e.code;
     const key = document.getElementById(activeKey);
         playNote(key);
